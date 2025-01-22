@@ -1,0 +1,15 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+
+# Stripe Python library
+stripe==5.5.0
+
+# Database & ORM
+SQLAlchemy==1.4.46
+psycopg2-binary==2.9.6  # or replace with the driver you use (e.g. mysqlclient, asyncpg, etc.)
+
+# Optional for environment variable handling
+python-dotenv==0.21.1
+
+# Pydantic is bundled with FastAPI but you can also pin it if you prefer
+pydantic==1.10.7
